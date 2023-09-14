@@ -1,1 +1,0 @@
-ml isme daal denge
