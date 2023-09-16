@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 
-import { navLinks } from "../constants/content";
 import { close, logoby, menu } from "../assets";
 
 const Navbar = () => {
@@ -13,17 +12,42 @@ const Navbar = () => {
       <img src={logoby} alt="Cloudy" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav, index) => (
-          <li
-            key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-dimWhite"
-            } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
-          >
-            <a href={`#${nav.id}`}>{nav.title}</a>
-          </li>
-        ))}
+        <li
+          key="home"
+          className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${
+            active === 'Home' ? 'text-white' : 'text-dimWhite'
+          }`}
+          onClick={() => setActive('Home')}
+        >
+          <a href="#home">Home</a>
+        </li>
+        <li
+          key="about"
+          className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${
+            active === 'About' ? 'text-white' : 'text-dimWhite'
+          }`}
+          onClick={() => setActive('About')}
+        >
+          <a href="#about">About</a>
+        </li>
+        <li
+          key="product"
+          className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${
+            active === 'Product' ? 'text-white' : 'text-dimWhite'
+          }`}
+          onClick={() => setActive('Product')}
+        >
+          <a href="#product">Product</a>
+        </li>
+        <li
+          key="pre-save"
+          className={`font-poppins font-normal cursor-pointer text-[16px] mr-10 ${
+            active === 'Pre-Save' ? 'text-white' : 'text-dimWhite'
+          }`}
+          onClick={() => setActive('Pre-Save')}
+        >
+          <a href="pre-save">Pre-Save</a>
+        </li>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -40,19 +64,45 @@ const Navbar = () => {
           } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
-            {navLinks.map((nav, index) => (
-              <li
-                key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-dimWhite"
-                } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
-              >
-                <a href={`#${nav.id}`}>{nav.title}</a>
-              </li>
-            ))}
+            <li
+              key="home"
+              className={`font-poppins font-medium cursor-pointer text-[16px] mb-4 ${
+                active === 'Home' ? 'text-white' : 'text-dimWhite'
+              }`}
+              onClick={() => setActive('Home')}
+            >
+              <a href="#home">Home</a>
+            </li>
+            <li
+              key="about"
+              className={`font-poppins font-medium cursor-pointer text-[16px] mb-4 ${
+                active === 'About' ? 'text-white' : 'text-dimWhite'
+              }`}
+              onClick={() => setActive('About')}
+            >
+              <a href="#about">About</a>
+            </li>
+            <li
+              key="product"
+              className={`font-poppins font-medium cursor-pointer text-[16px] mb-4 ${
+                active === 'Product' ? 'text-white' : 'text-dimWhite'
+              }`}
+              onClick={() => setActive('Product')}
+            >
+              <a href="#product">Product</a>
+            </li>
+            <li
+              key="pre-save"
+              className={`font-poppins font-medium cursor-pointer text-[16px] mb-4 ${
+                active === 'Pre-Save' ? 'text-white' : 'text-dimWhite'
+              }`}
+              onClick={() => setActive('Pre-Save')}
+            >
+              <a href="pre-save">Pre-Save</a>
+            </li>
           </ul>
         </div>
+
       </div>
     </nav>
   );
