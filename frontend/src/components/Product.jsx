@@ -1,6 +1,8 @@
-import { wety } from "../assets";
-import styles, { layout } from "../style";
+import React from "react";
+
 import Button from "./Button";
+import { wety } from "../assets";
+import styles, { layout } from "../constants/style";
 
 const Product = () => (
   <section id="product" className={layout.section}>

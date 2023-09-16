@@ -1,5 +1,7 @@
+import React from "react";
+
 import { apple, cbill, google } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "../constants/style";
 
 const AppSupport = () => (
   <section id="app" className={layout.sectionReverse}>

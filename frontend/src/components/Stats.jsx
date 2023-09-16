@@ -1,5 +1,7 @@
-import { stats } from "../content";
-import styles from "../style";
+import React from "react";
+
+import { stats } from "../constants/content";
+import styles from "../constants/style";
 
 const Stats = () => (
   <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>

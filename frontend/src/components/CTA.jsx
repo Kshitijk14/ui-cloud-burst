@@ -1,5 +1,7 @@
-import styles from "../style";
+import React from "react";
+
 import Button from "./Button";
+import styles from "../constants/style";
 
 const CTA = () => (
   <section id="pre-save" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>

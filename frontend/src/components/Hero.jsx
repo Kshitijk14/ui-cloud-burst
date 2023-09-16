@@ -1,5 +1,7 @@
-import styles from "../style";
+import React from "react";
+
 import { hero } from "../assets";
+import styles from "../constants/style";
 
 const Hero = () => {
   return (
