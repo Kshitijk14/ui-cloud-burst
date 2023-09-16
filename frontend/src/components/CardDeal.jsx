@@ -1,4 +1,4 @@
-import { card, wety } from "../assets";
+import { wety } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
