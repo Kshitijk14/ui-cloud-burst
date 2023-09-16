@@ -1,6 +1,6 @@
 import styles from "../style";
 import { logowy } from "../assets";
-import { socialMedia } from "../constants";
+import { socialMedia } from "../content";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>

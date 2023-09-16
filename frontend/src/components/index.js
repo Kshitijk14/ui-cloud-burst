@@ -1,19 +1,19 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import CTA from "./CTA";
-import Stats from "./Stats";
-import Footer from "./Footer";
 import Hero from "./Hero";
+import Stats from "./Stats";
+import About from "./About";
+import AppSupport from "./AppSupport";
+import Product from "./Product";
+import CTA from "./CTA";
+import Footer from "./Footer";
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
-  Business,
-  CTA,
-  Stats,
-  Footer,
   Hero,
+  Stats,
+  About,
+  AppSupport,
+  Product,
+  CTA,
+  Footer,
 };

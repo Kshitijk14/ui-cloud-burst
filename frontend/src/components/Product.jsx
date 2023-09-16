@@ -2,8 +2,8 @@ import { wety } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-const CardDeal = () => (
-  <section className={layout.section}>
+const Product = () => (
+  <section id="product" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Data-Driven Predictions <br className="sm:block hidden" /> at Your Fingertips
@@ -16,9 +16,9 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={wety} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={wety} alt="product" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
 
-export default CardDeal;
+export default Product;

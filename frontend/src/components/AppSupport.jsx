@@ -1,8 +1,8 @@
 import { apple, cbill, google } from "../assets";
 import styles, { layout } from "../style";
 
-const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
+const AppSupport = () => (
+  <section id="app" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={cbill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
@@ -28,4 +28,4 @@ const Billing = () => (
   </section>
 );
 
-export default Billing;
+export default AppSupport;

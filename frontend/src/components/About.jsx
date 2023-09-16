@@ -1,4 +1,4 @@
-import { features } from "../constants";
+import { features } from "../content";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -18,8 +18,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
-  <section id="features" className={layout.section}>
+const About = () =>  (
+  <section id="about" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Empowering Safety, <br className="sm:block hidden" /> Through Cloud Insights
@@ -39,4 +39,4 @@ const Business = () =>  (
   </section>
 );
 
-export default Business;
+export default About;
