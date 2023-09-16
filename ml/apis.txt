@@ -1,9 +1,0 @@
-579b464db66ec23bdd00000119188658d1b34581776e9f5cc0d149fa
-
-https://api.open-meteo.com/v1/forecast?latitude=30.3229&longitude=78.0317&hourly=temperature_2m,relativehumidity_2m,precipitation_probability,precipitation,pressure_msl,surface_pressure,cloudcover,cloudcover_low,cloudcover_mid,cloudcover_high,evapotranspiration,et0_fao_evapotranspiration,vapor_pressure_deficit,windspeed_10m,windspeed_80m,windspeed_120m,windspeed_180m,windgusts_10m,temperature_80m,temperature_120m,temperature_180m&start_date=2022-06-08&end_date=2023-09-01
-
-website resource: 
-- https://open-meteo.com/
-- https://open-meteo.com/en/docs#latitude=30.3229&longitude=78.0317&hourly=temperature_2m,relativehumidity_2m,precipitation_probability,precipitation,pressure_msl,surface_pressure,cloudcover,cloudcover_low,cloudcover_mid,cloudcover_high,evapotranspiration,et0_fao_evapotranspiration,vapor_pressure_deficit,windspeed_10m,windspeed_80m,windspeed_120m,windspeed_180m,windgusts_10m,temperature_80m,temperature_120m,temperature_180m&start_date=2022-12-01&end_date=2023-09-01
-
-https://colab.research.google.com/drive/19SPFvaEzUQMn3N5vQdNbE-uqP6TXQcYR?usp=sharing
