@@ -1,24 +1,5 @@
 import { facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
 
-export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "pre-save",
-    title: "Pre-save",
-  },
-];
-
 export const features = [
   {
     id: "feature-1",
