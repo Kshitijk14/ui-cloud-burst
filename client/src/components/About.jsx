@@ -22,13 +22,17 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const About = () =>  (
   <section id="about" className={layout.section}>
+
     <div className={layout.sectionInfo}>
+
+      {/* About Content */}
       <h2 className={styles.heading2}>
         Empowering Safety, <br className="sm:block hidden" /> Through Cloud Insights
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Our cloud burst prediction model leverages advanced meteorological data and AI algorithms to provide real-time forecasts. We empower you to proactively protect lives and assets from sudden heavy rainfall and flash floods with precision and confidence.
       </p>
+      {/* About Content */}
 
       <Button styles={`mt-10`} />
     </div>
@@ -38,6 +42,7 @@ const About = () =>  (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}
     </div>
+    
   </section>
 );
 
