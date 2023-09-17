@@ -8,9 +8,13 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logoby} alt="Cloudy" className="w-[124px] h-[32px]" />
+    <nav className={`w-full flex py-6 justify-between items-center navbar`}>
 
+      {/* Navbar Img */}
+      <img src={logoby} alt="Cloudy" className="w-[124px] h-[32px]" />
+      {/* Navbar Img */}
+
+      {/* Desktop View */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         <li
           key="home"
@@ -49,14 +53,19 @@ const Navbar = () => {
           <a href="pre-save">Pre-Save</a>
         </li>
       </ul>
+      {/* Desktop View */}
 
+      {/* Mobile View */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
+
+        {/* ... Mobile menu button */}
         <img
           src={toggle ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle(!toggle)}
         />
+        {/* ... Mobile menu button */}
 
         <div
           className={`${
@@ -104,6 +113,8 @@ const Navbar = () => {
         </div>
 
       </div>
+      {/* Mobile View */}
+
     </nav>
   );
 };
