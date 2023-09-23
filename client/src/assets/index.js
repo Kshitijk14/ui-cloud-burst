@@ -16,6 +16,8 @@ import wety from "./png/wety.png";
 import logowy from "./png/logo-wy.png";
 import logoby from "./png/logo-by.png";
 
+import rainGif from "./darkisland_rain.gif"
+
 export {
   send,
   shield,
@@ -34,4 +36,6 @@ export {
   wety,
   logowy,
   logoby,
+
+  rainGif,
 };

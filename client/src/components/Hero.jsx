@@ -1,6 +1,6 @@
 import React from "react";
 
-import { hero } from "../assets";
+import { hero, rainGif } from "../assets";
 import styles from "../constants/style";
 
 const Hero = () => {
