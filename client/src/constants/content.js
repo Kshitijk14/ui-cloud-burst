@@ -6,7 +6,7 @@ export const features = [
     icon: star,
     title: "User-Friendly Interface",
     content:
-      "An intuitive interface for effortless cloud burst insights and weather data access",
+      "An intuitive interface for effortless cloud burst insights and weather data access.",
   },
   {
     id: "feature-2",
@@ -18,7 +18,7 @@ export const features = [
   {
     id: "feature-3",
     icon: send,
-    title: "Customization and Location-Based Services",
+    title: "Customization & Location-Based",
     content:
       "Tailor your experience with personalized alerts and precise location-based forecasts.",
   },
