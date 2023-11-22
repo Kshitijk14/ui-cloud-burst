@@ -21,7 +21,7 @@ const WhatsNew = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| Whats new?" />
-        <TitleText title={<>What's new about Metaversus?</>} />
+        <TitleText title={<>What's new in this predictor?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
@@ -35,7 +35,7 @@ const WhatsNew = () => (
       >
         <img
           src="/whats-new.png"
-          alt="get-started"
+          alt="whats-new"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>

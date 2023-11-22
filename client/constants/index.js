@@ -1,70 +1,70 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/delhi.png',
+    title: 'Delhi',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/mumbai.png',
+    title: 'Mumbai',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/west-bengal.png',
+    title: 'West Bengal',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/gujarat.png',
+    title: 'Gujarat',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/himachal-pradesh.png',
+    title: 'Himachal Pradesh',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Choose a location or enter coordinates',
+  'Sign up and provide your details',
+  'Get early updates and alerts for cloudbursts and heavy rainfall',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/wnew-sms.svg',
+    title: 'Instant SMS alerts',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Stay informed instantly with timely updates through SMS for immediate awareness and response.',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/wnew-api.svg',
+    title: 'API Availability',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Explore our API for seamless integration and access.',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/insight-1.png',
+    title: 'The Human Toll: Assessing Loss & Deaths from Cloudbursts',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Delve into the tragic consequences of cloudbursts, examining the human toll, and exploring measures to minimize loss of life.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/insight-2.png',
+    title: 'Beyond Numbers: The Emotional & Economic Impact of Cloudbursts',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Uncover the multifaceted impact of cloudbursts, exploring not just the statistics but also the emotional and economic aftermath.',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/insight-3.png',
+    title: 'Loss Prevention Strategies: How Alert Systems Can Save Lives',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Learn about the proactive strategies and alert systems crucial for preventing loss of life in the face of heavy rainfall and cloudbursts.',
   },
 ];
 
