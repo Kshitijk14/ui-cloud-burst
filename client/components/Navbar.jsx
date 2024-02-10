@@ -59,11 +59,11 @@ const Navbar = () => {
 
       {/* Menu View */}
       <div className={`${!toggle ? 'hidden' : 'flex justify-center items-center'} z-[1]`}>
-        <ul className="list-none flex justify-end items-center flex-1 flex-col">
-          {['Home', 'Explore', 'Product', 'Insights'].map((link) => (
+        <ul className="list-none flex justify-end items-center flex-1 flex-col mt-6">
+          {['About', 'Explore', 'Product', 'Insights'].map((link) => (
             <li 
               key={link.toLowerCase()}
-              className={`font-poppins font-medium cursor-pointer text-[16px] mb-4 mt-4 ${
+              className={`font-poppins font-medium cursor-pointer text-[16px] mb-4 mt-2 ${
                 active === link ? 'text-white' : 'text-dimWhite'
               }`}
             >
