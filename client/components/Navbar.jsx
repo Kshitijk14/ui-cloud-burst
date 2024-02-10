@@ -16,7 +16,6 @@ const Navbar = () => {
     setActive(link);
     setToggle(false); // Close mobile menu after link click
   };
-  
   return (
     <motion.nav
       variants={navVariants}
@@ -50,7 +49,6 @@ const Navbar = () => {
           onClick={() => setToggle(!toggle)}
         />
       </div>
-
       {/* Menu View */}
       <div className={`${!toggle ? 'hidden' : 'flex justify-center items-center'} z-[1]`}>
         <ul className="list-none flex justify-end items-center flex-1 flex-col mt-6">
@@ -69,7 +67,6 @@ const Navbar = () => {
         </ul>
       </div>
       {/* Menu View */}
-
     </motion.nav>
   );
 };
