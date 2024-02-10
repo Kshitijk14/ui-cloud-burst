@@ -7,16 +7,12 @@ import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
 const Navbar = () => {
-  
   // State for mobile menu toggle
   const [toggle, setToggle] = useState(false);
-
   // State for active link
   const [active, setActive] = useState('Home');
-
   // Function to handle link click
   const handleLinkClick = (link) => {
-    debugger;
     setActive(link);
     setToggle(false); // Close mobile menu after link click
   };
@@ -28,11 +24,9 @@ const Navbar = () => {
       whileInView="show"
       className={`${styles.xPaddings} py-8 relative`}
     >
-      
       {/* Nav Gradient */}
       <div className="absolute w-[50%] inset-0 gradient-01 z-[-2]" />
       {/* Nav Gradient */}
-
       <div
         className={`${styles.innerWidth} mx-auto flex justify-between gap-8 z-[2]`}
       >
