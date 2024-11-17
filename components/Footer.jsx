@@ -22,7 +22,7 @@ const Footer = () => (
           Stay Ahead, Stay Safe
         </h4>
         <div className='flex justify-center'>
-      <Link href="/result">
+      <Link href="/SensorData">
         <button className='bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 px-12 py-6 rounded-full text-white font-semibold text-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:opacity-90'>
                       FORECAST
         </button>
