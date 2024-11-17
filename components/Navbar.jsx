@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
@@ -37,9 +38,12 @@ const Navbar = () => {
         />
         {/* Nav Heading */}
         <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-          <a href="#home" onClick={() => handleLinkClick('Home')}>
-            CLOUDY
-          </a>          
+        <Link href="/result">
+        <button className='bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-4 rounded-full text-white font-semibold text-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:opacity-90'>
+                      FORECAST
+        </button>
+
+          </Link>       
         </h2>
         {/* Menu Img */}
         <img
