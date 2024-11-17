@@ -6,6 +6,7 @@ import styles from '../styles';
 import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import Link from 'next/link';
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -43,6 +44,7 @@ const GetStarted = () => (
         </div>
       </motion.div>
     </motion.div>
+    
   </section>
 );
 

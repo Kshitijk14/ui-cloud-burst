@@ -7,6 +7,7 @@ import styles from '../styles';
 import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
+import Link from 'next/link';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
@@ -37,6 +38,13 @@ const Explore = () => {
           ))}
         </div>
       </motion.div>
+      <div className='flex justify-center'>
+      <Link href="/result">
+        <button className='bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-4 rounded-full text-white font-semibold text-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-xl hover:opacity-90'>
+                      FORECAST
+        </button>
+          </Link>
+    </div>
     </section>
   );
 };
