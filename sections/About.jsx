@@ -16,14 +16,14 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Cloudy" textStyles="text-center" />
+      <TypingText title="| About Cloud Burst Prediction" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
         Welcome to{' '}
-        <span className="font-extrabold text-white">Cloudy</span>
+        <span className="font-extrabold text-white">Cloud Burst Prediction</span>
         , where cutting-edge technology intersects with environmental responsibility to redefine{' '} 
         <span className="font-extrabold text-white">cloudburst</span> 
         {' '}preparedness. Our model integrates atmospheric conditions and historical weather patterns for a dynamic,{' '} 
